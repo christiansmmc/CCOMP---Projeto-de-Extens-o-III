@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Currículo Fácil - Projeto de Extensão Universitária
 
-## Getting Started
+Uma plataforma gratuita que facilita a criação de currículos inclusivos, oferecendo dicas e orientações profissionais para pessoas em busca de oportunidades no mercado de trabalho.
 
-First, run the development server:
+## Sobre o Projeto de Extensão
+
+Este projeto foi desenvolvido como parte de um Programa de Extensão Universitária, aplicando conhecimentos acadêmicos para contribuir com a comunidade e promover o desenvolvimento social. A iniciativa visa diminuir barreiras de entrada no mercado de trabalho através da tecnologia.
+
+### Objetivos do Projeto
+
+- Facilitar a criação de currículos profissionais para pessoas sem acesso a ferramentas pagas
+- Fornecer orientações sobre boas práticas na elaboração de currículos
+- Promover a inclusão digital e acesso a recursos de desenvolvimento profissional
+- Aplicar conhecimentos acadêmicos em um contexto prático de impacto social
+
+## Tecnologias
+
+Este é um projeto [Next.js](https://nextjs.org) inicializado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Instruções de Desenvolvimento
+
+Para iniciar o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando `app/page.tsx`. A página atualiza automaticamente conforme você edita o arquivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este projeto utiliza [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para otimizar e carregar automaticamente a fonte [Geist](https://vercel.com/font), uma nova família de fontes para o Vercel.
 
-## Learn More
+## Mais Informações
 
-To learn more about Next.js, take a look at the following resources:
+Para saber mais sobre o Next.js, consulte os seguintes recursos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre os recursos e API do Next.js.
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo de Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Você pode verificar [o repositório GitHub do Next.js](https://github.com/vercel/next.js) - suas contribuições são bem-vindas!
 
-## Deploy on Vercel
+## Implantação
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A maneira mais fácil de implantar seu aplicativo Next.js é usar a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Consulte a [documentação de implantação do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
