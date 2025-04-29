@@ -115,7 +115,7 @@ export default function CurriculoForm() {
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <label htmlFor="nome" className="block text-sm font-medium text-gray-700 mb-1">
+                                <label htmlFor="nome" className="block text-sm font-medium text-gray-500 mb-1">
                                     Nome Completo *
                                 </label>
                                 <input
@@ -131,7 +131,7 @@ export default function CurriculoForm() {
                             </div>
 
                             <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                                <label htmlFor="email" className="block text-sm font-medium text-gray-500 mb-1">
                                     Email *
                                 </label>
                                 <input
@@ -147,7 +147,7 @@ export default function CurriculoForm() {
                             </div>
 
                             <div>
-                                <label htmlFor="telefone" className="block text-sm font-medium text-gray-700 mb-1">
+                                <label htmlFor="telefone" className="block text-sm font-medium text-gray-500 mb-1">
                                     Telefone *
                                 </label>
                                 <input
@@ -163,7 +163,7 @@ export default function CurriculoForm() {
                             </div>
 
                             <div>
-                                <label htmlFor="cidade" className="block text-sm font-medium text-gray-700 mb-1">
+                                <label htmlFor="cidade" className="block text-sm font-medium text-gray-500 mb-1">
                                     Cidade/Estado *
                                 </label>
                                 <input
@@ -186,7 +186,7 @@ export default function CurriculoForm() {
                             Objetivo Profissional
                         </h3>
                         <div>
-                            <label htmlFor="objetivo" className="block text-sm font-medium text-gray-700 mb-1">
+                            <label htmlFor="objetivo" className="block text-sm font-medium text-gray-500 mb-1">
                                 Descreva seu objetivo *
                             </label>
                             <textarea
@@ -223,7 +223,7 @@ export default function CurriculoForm() {
                         {formacoesFields.map((field, index) => (
                             <div key={field.id} className="mb-6 p-4 border border-gray-200 rounded-lg bg-gray-50">
                                 <div className="flex justify-between items-center mb-3">
-                                    <h4 className="font-medium text-gray-700">Formação {index + 1}</h4>
+                                    <h4 className="font-medium text-gray-500">Formação {index + 1}</h4>
                                     {formacoesFields.length > 1 && (
                                         <button
                                             type="button"
@@ -239,7 +239,7 @@ export default function CurriculoForm() {
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                        <label className="block text-sm font-medium text-gray-500 mb-1">
                                             Curso/Formação
                                         </label>
                                         <input
@@ -251,7 +251,7 @@ export default function CurriculoForm() {
                                     </div>
 
                                     <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                        <label className="block text-sm font-medium text-gray-500 mb-1">
                                             Instituição
                                         </label>
                                         <input
@@ -263,7 +263,7 @@ export default function CurriculoForm() {
                                     </div>
 
                                     <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                        <label className="block text-sm font-medium text-gray-500 mb-1">
                                             Conclusão (ou previsão)
                                         </label>
                                         <input
@@ -299,7 +299,7 @@ export default function CurriculoForm() {
                         {experienciasFields.map((field, index) => (
                             <div key={field.id} className="mb-6 p-4 border border-gray-200 rounded-lg bg-gray-50">
                                 <div className="flex justify-between items-center mb-3">
-                                    <h4 className="font-medium text-gray-700">Experiência {index + 1}</h4>
+                                    <h4 className="font-medium text-gray-500">Experiência {index + 1}</h4>
                                     {experienciasFields.length > 1 && (
                                         <button
                                             type="button"
@@ -315,7 +315,7 @@ export default function CurriculoForm() {
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                        <label className="block text-sm font-medium text-gray-500 mb-1">
                                             Empresa
                                         </label>
                                         <input
@@ -327,7 +327,7 @@ export default function CurriculoForm() {
                                     </div>
 
                                     <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                        <label className="block text-sm font-medium text-gray-500 mb-1">
                                             Cargo
                                         </label>
                                         <input
@@ -339,7 +339,7 @@ export default function CurriculoForm() {
                                     </div>
 
                                     <div>
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                        <label className="block text-sm font-medium text-gray-500 mb-1">
                                             Período
                                         </label>
                                         <input
@@ -351,7 +351,7 @@ export default function CurriculoForm() {
                                     </div>
 
                                     <div className="md:col-span-2">
-                                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                                        <label className="block text-sm font-medium text-gray-500 mb-1">
                                             Descrição das Atividades
                                         </label>
                                         <textarea
