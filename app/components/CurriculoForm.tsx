@@ -110,7 +110,7 @@ export default function CurriculoForm() {
                 <form onSubmit={handleSubmit(onSubmit)} className="bg-white shadow-md rounded-lg p-6">
                     {/* Informações Pessoais */}
                     <div className="mb-8">
-                        <h3 className="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">
+                        <h3 className="text-xl font-semibold text-gray-500 mb-4 pb-2 border-b border-gray-200">
                             Informações Pessoais
                         </h3>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -182,7 +182,7 @@ export default function CurriculoForm() {
 
                     {/* Objetivo Profissional */}
                     <div className="mb-8">
-                        <h3 className="text-xl font-semibold text-gray-900 mb-4 pb-2 border-b border-gray-200">
+                        <h3 className="text-xl font-semibold text-gray-500 mb-4 pb-2 border-b border-gray-200">
                             Objetivo Profissional
                         </h3>
                         <div>
@@ -205,7 +205,7 @@ export default function CurriculoForm() {
                     {/* Formação Acadêmica */}
                     <div className="mb-8">
                         <div className="flex justify-between items-center mb-4 pb-2 border-b border-gray-200">
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <h3 className="text-xl font-semibold text-gray-500">
                                 Formação Acadêmica <span className="text-sm font-normal text-gray-500">(Opcional)</span>
                             </h3>
                             <button
@@ -281,7 +281,7 @@ export default function CurriculoForm() {
                     {/* Experiência Profissional */}
                     <div className="mb-8">
                         <div className="flex justify-between items-center mb-4 pb-2 border-b border-gray-200">
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <h3 className="text-xl font-semibold text-gray-500">
                                 Experiência Profissional <span className="text-sm font-normal text-gray-500">(Opcional)</span>
                             </h3>
                             <button
@@ -369,7 +369,7 @@ export default function CurriculoForm() {
                     {/* Habilidades */}
                     <div className="mb-8">
                         <div className="flex justify-between items-center mb-4 pb-2 border-b border-gray-200">
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <h3 className="text-xl font-semibold text-gray-500">
                                 Habilidades *
                             </h3>
                             <button
